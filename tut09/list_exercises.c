@@ -1,3 +1,9 @@
+/**
+ * This week we covered malloc and free, as well 
+ * as looking more into linked lists by doing some 
+ * exercises.
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -60,6 +66,8 @@ int main(void) {
 }
 
 /**
+ * Returns a new list with intersecting values within
+ * list1 and list2. e.g.:
  * list1 : 1 -> 5 -> 7 -> 9 -> X
  * list2 : 2 -> 5 -> 6 -> 7 -> 8 -> 9 -> X
  * intersection : 5 -> 7 -> 9 -> X

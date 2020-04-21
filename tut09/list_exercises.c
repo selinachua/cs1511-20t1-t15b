@@ -92,10 +92,7 @@ Node set_intersection(Node head1, Node head2) {
             if (new_head == NULL) {
                 new_head = new;
                 new_tail = new;
-            } else {
-                if (curr1->val == new_tail->val) {
-                    continue;
-                }
+            } else if (curr1->val != new_tail->val) {
                 new_tail->next = new;
                 new_tail = new_tail->next;
             }
